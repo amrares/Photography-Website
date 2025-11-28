@@ -24,6 +24,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-p6O3bK3wz8bXQh8QmK6m1VtZ3q9Y1V7s6p2q5Kq9Y6r2s3l1x4v5K6m7N8e9o0p1Q2r3s4t5u6v7w8x9y0z=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

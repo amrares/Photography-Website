@@ -30,6 +30,17 @@ body,
 #root,
 #__next {
   height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Smooth scrolling for in-page navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset anchored sections so fixed header doesn't cover them */
+#portfolio {
+  scroll-margin-top: 96px;
 }
 
 /* Simple script-like logo font fallback */
