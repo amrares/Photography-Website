@@ -34,7 +34,7 @@ export default function Home() {
           </p>
           <div className="flex items-center justify-center gap-4">
             <a
-              href="#portfolio"
+              href="/portfolio"
               className="rounded-full bg-white/95 px-6 py-3 text-sm font-medium text-black shadow-md hover:opacity-95"
             >
               Vezi Portofoliu
@@ -62,9 +62,12 @@ export default function Home() {
                   className="w-full h-56 object-cover"
                 />
                 <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-200 group-hover:bg-black/40">
-                  <span className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200">
+                  <a
+                    href="/portfolio"
+                    className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200 hover:text-gray-300"
+                  >
                     See Gallery
-                  </span>
+                  </a>
                 </div>
               </div>
               <div className="bg-white py-6 text-sm uppercase tracking-widest text-gray-700">
@@ -81,9 +84,12 @@ export default function Home() {
                   className="w-full h-56 object-cover"
                 />
                 <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-200 group-hover:bg-black/40">
-                  <span className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200">
+                  <a
+                    href="/portfolio"
+                    className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200 hover:text-gray-300"
+                  >
                     See Gallery
-                  </span>
+                  </a>
                 </div>
               </div>
               <div className="bg-white py-6 text-sm uppercase tracking-widest text-gray-700">
@@ -100,9 +106,12 @@ export default function Home() {
                   className="w-full h-56 object-cover"
                 />
                 <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-200 group-hover:bg-black/40">
-                  <span className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200">
+                  <a
+                    href="/portfolio"
+                    className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200 hover:text-gray-300"
+                  >
                     See Gallery
-                  </span>
+                  </a>
                 </div>
               </div>
               <div className="bg-white py-6 text-sm uppercase tracking-widest text-gray-700">
@@ -119,9 +128,12 @@ export default function Home() {
                   className="w-full h-56 object-cover"
                 />
                 <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-200 group-hover:bg-black/40">
-                  <span className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200">
+                  <a
+                    href="/portfolio"
+                    className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200 hover:text-gray-300"
+                  >
                     See Gallery
-                  </span>
+                  </a>
                 </div>
               </div>
               <div className="bg-white py-6 text-sm uppercase tracking-widest text-gray-700">
@@ -138,9 +150,12 @@ export default function Home() {
                   className="w-full h-56 object-cover"
                 />
                 <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-200 group-hover:bg-black/40">
-                  <span className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200">
+                  <a
+                    href="/portfolio"
+                    className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200 hover:text-gray-300"
+                  >
                     See Gallery
-                  </span>
+                  </a>
                 </div>
               </div>
               <div className="bg-white py-6 text-sm uppercase tracking-widest text-gray-700">
@@ -157,9 +172,12 @@ export default function Home() {
                   className="w-full h-56 object-cover"
                 />
                 <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-200 group-hover:bg-black/40">
-                  <span className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200">
+                  <a
+                    href="/portfolio"
+                    className="opacity-0 group-hover:opacity-100 text-white text-sm tracking-widest uppercase transition-opacity duration-200 hover:text-gray-300"
+                  >
                     See Gallery
-                  </span>
+                  </a>
                 </div>
               </div>
               <div className="bg-white py-6 text-sm uppercase tracking-widest text-gray-700">
@@ -187,7 +205,7 @@ export default function Home() {
             HAI SA FACEM CEVA MINUNAT IMPREUNA.
           </h2>
           <a
-            href="#contact"
+            href="/contact"
             className="inline-block mt-4 px-8 py-3 bg-white text-black rounded-full font-semibold shadow hover:bg-gray-200 transition"
           >
             CONTACT
@@ -618,7 +636,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/contact" className="hover:underline">
                   Contact
                 </a>
               </li>
@@ -626,7 +644,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center text-gray-400 text-xs mt-12">
-          © 2019 Rares. All rights reserved.
+          © 2026 Avram Rares. Toate drepturile rezervate.
         </div>
       </footer>
     </div>
@@ -697,17 +715,12 @@ function Header() {
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-white">
+                <a href="/portfolio" className="hover:text-white">
                   Portfoliu
                 </a>
               </li>
               <li>
-                <a href="#gallery" className="hover:text-white">
-                  Galerie
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-white">
+                <a href="/contact" className="hover:text-white">
                   Contact
                 </a>
               </li>
